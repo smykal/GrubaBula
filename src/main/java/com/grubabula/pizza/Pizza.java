@@ -56,7 +56,7 @@ public class Pizza {
             this.topping = topping;
             return this;
         }
-        public void addTopping(Topping topping) {this.topping.add(topping); }
+        public PizzaBuilder addTopping(Topping topping) {this.topping.add(topping); return this; }
 
         public Pizza build() {
             Pizza pizza = new Pizza();
