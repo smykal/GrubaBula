@@ -2,12 +2,12 @@ import java.util.List;
 
 public class Pizza {
     private String name;
-    private String dough;
-    private String sauce;
-    private String size;
-    private List<String> topping;
+    private Dough dough;
+    private Sauce sauce;
+    private Size size;
+    private List<Topping> topping;
 
-    public Pizza(String name, String dough, String sauce, String size, List<String> topping) {
+    public Pizza(String name, Dough dough, Sauce sauce, Size size, List<Topping> topping) {
         this.name = name;
         this.dough = dough;
         this.sauce = sauce;
@@ -19,9 +19,9 @@ public class Pizza {
     public String toString() {
         return "Pizza{" +
                 "name='" + name + '\'' +
-                ", dough='" + dough + '\'' +
-                ", sauce='" + sauce + '\'' +
-                ", size='" + size + '\'' +
+                ", dough=" + dough +
+                ", sauce=" + sauce +
+                ", size=" + size +
                 ", topping=" + topping +
                 '}';
     }
