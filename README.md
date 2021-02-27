@@ -8,7 +8,7 @@ This project has aim to practise my skills.
 
 ## Technologies
 Project is created with:
-* JAVA 
+* JAVA 15.0.1.
 * JUnit5
 
 ## Setup
