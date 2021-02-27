@@ -1,3 +1,5 @@
+package com.grubabula.pizza;
+
 public enum Topping {
     CHEESE,
     ONIONS,
